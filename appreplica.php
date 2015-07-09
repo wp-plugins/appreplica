@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Appreplica
-Plugin URI: 
+Plugin URI: http://appreplica.com/?from=wp
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
 Version: 1.2
