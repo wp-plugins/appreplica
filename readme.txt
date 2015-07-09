@@ -1,4 +1,4 @@
-=== Appreplica ===
+=== Appreplica Social Embeds ===
 Contributors: appreplica
 Tags: appreplica, youtube, itunes, spotify, deezer, soundcloud, facebook, instagram, twitter, tumblr, 500px, SmugMug
 Requires at least: 3.5.1
