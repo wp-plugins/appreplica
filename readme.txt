@@ -1,6 +1,6 @@
 === Appreplica Social Embeds ===
 Contributors: appreplica
-Tags: appreplica, youtube, itunes, spotify, deezer, soundcloud, facebook, instagram, twitter, tumblr, 500px, SmugMug
+Tags: Appreplica, YouTube, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
 Tested up to: 4.2.2
 Stable tag: trunk
