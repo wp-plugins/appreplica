@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Appreplica
-Plugin URI: http://appreplica.com/?from=wp
+Plugin URI: http://appreplica.com
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
-Version: 1.2
-Author URI: http://appreplica.com/?from=wp
+Version: 1.3
+Author URI: http://appreplica.com
 */
 
 # Define appreplica plugin path
@@ -25,7 +25,7 @@ function embed_appreplica( $atts, $app = '' ) {
     # Read url from 'url' attribute if not empty, this corresponds to the App
     if ( !empty( $atts['url'] ) ) $app = $atts['url'];
 	
-	$app_array = array("youtube", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "smugmug", "photos", "videos", "music");
+	$app_array = array("youtube", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
 	
 	# return for valid apps only
 	if (in_array(strtolower($app), $app_array)) {
@@ -43,7 +43,7 @@ function embed_appreplica( $atts, $app = '' ) {
 	$code .= 'appreplicaapikey = "' . strtolower($api_key) . '"; ';
 	$code .= 'appreplicasitename = "' . strtolower($site_name) . '"; ';
 	$code .= '</script> ';
-	$code .= '<script src="http://js.appreplica.com/1.2/arwp.js"></script> ';
+	$code .= '<script src="http://js.appreplica.com/1.3/arwp.js"></script> ';
 	
 	}
 	
@@ -85,19 +85,9 @@ function appreplica_settings_page() {
 ?>
 
 </br>
-<h1>How to use Appreplica (version 1.2)</h1>
+<h1>How to use Appreplica (version 1.3)</h1>
 
 <p>Before you can use this plugin, you must first sign up for a free account on <a href="http://appreplica.com" target="_blank">Appreplica.com</a> and configure the Apps your wish to add to your WordPress pages.</p></br>
-
-<?php $appreplicaversion = @file_get_contents('http://api.appreplica.com/wordpress/pluginversion.php?v=1.0'); ?>
-
-<?php if ($appreplicaversion > 1.2) { ?>
-
-  <h2><span style="color: #ff0000;"><b>Please update your plugin</b></span></h2>
-  
-  <p>A newer version (v.<?php echo $appreplicaversion; ?>) of this plugin is available for download. Please download and install the latest version <a href="http://cdn.arpcdn.com/wordpress/appreplica.zip" target="_blank">latest version</a> of this plugin to take advantage of all our Apps and features.</p></br>
-
-<?php } ?>
 
 <form method="post" action="">
 
@@ -145,6 +135,7 @@ function appreplica_settings_page() {
 <li><p><img src="<?php echo plugins_url( 'icons/tumblr.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Tumblr</b>&nbsp;&nbsp; <code>[appreplica]Tumblr[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/500px.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>500px</b>&nbsp;&nbsp; <code>[appreplica]500px[/appreplica]</code></p></li>
 
+<li><p><img src="<?php echo plugins_url( 'icons/flickr.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Flickr</b>&nbsp;&nbsp; <code>[appreplica]Flickr[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/smugmug.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>SmugMug</b>&nbsp;&nbsp; <code>[appreplica]Smugmug[/appreplica]</code></p></li>
 
 </ul>

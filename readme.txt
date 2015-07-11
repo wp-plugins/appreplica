@@ -1,6 +1,6 @@
-=== Appreplica Social Embeds ===
+=== Appreplica Page Embeds ===
 Contributors: appreplica
-Tags: Appreplica, YouTube, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, SmugMug, Galleries, Photos, Videos, Music
+Tags: Appreplica, YouTube, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
 Tested up to: 4.2.2
 Stable tag: trunk
@@ -11,7 +11,7 @@ Appreplica lets you add content from 3rd party websites such as YouTube, Faceboo
 
 == Description ==
 
-Add full featured third party content from your favorite sites to your Wordpress powered websites. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, iTunes, Spotify, Deeer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, 500px and SmugMug. A paid subscription on Appreplica also adds apps for Photo, Video and Music galleries. With a fully cloud based service and a lightweight Wordpress plugin, adding these apps to your Wordpress will not slow down your Wordpress websites as all the content is rendered in the cloud and remotely displayed in your Wordpress pages.
+Add full featured third party content from your favorite sites to your Wordpress powered websites. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, iTunes, Spotify, Deeer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, and SmugMug. A paid subscription on Appreplica also adds apps for Photo, Video and Music galleries. With a fully cloud based service and a lightweight Wordpress plugin, adding these apps to your Wordpress will not slow down your Wordpress websites as all the content is rendered in the cloud and remotely displayed in your Wordpress pages.
 
 For an example with examples of these apps, please visit [http://wordpress.appreplica.com](http://wordpress.appreplica.com)
 
@@ -41,16 +41,25 @@ The installation is pretty standard:
 6. Photo Galleries Example
 7. Photo Lightbox View Example
 
+
 == Frequently Asked Questions ==
 
 Please visit [http://appreplica.com](http://appreplica.com) for support and FAQ.
 
+
 == Changelog ==
 
-This is our first official release.
+= 1.3 =
+
+Added support for Flickr.
+ 
+= 1.2 =
+
+This is our initial release.
 
 == Upgrade Notice ==
 
-Upgrade instructions for future versions will be listed here.
+= 1.3 =
 
+Simply upgrade the plugin to enable Flickr embeds. You can configure your Flickr account by signing in to http://appreplica.com
 
