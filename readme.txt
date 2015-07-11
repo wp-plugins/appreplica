@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Appreplica lets you add content from 3rd party websites such as YouTube, Facebook, Instagram, Twitter, Tumblr, iTunes, etc. to your WordPress websites.
+Appreplica lets you add content from 3rd party websites such as YouTube, Facebook, Instagram, Twitter, Tumblr, iTunes, Flickr, etc. to your WordPress websites.
 
 == Description ==
 
