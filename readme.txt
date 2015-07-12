@@ -61,5 +61,4 @@ This is our initial release.
 
 = 1.3 =
 
-Simply upgrade the plugin to enable Flickr embeds. You can configure your Flickr account by signing in to http://appreplica.com
-
+Upgrade the plugin to enable Flickr embeds.
