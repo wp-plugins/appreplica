@@ -43,7 +43,7 @@ function embed_appreplica( $atts, $app = '' ) {
 	$code .= 'appreplicaapikey = "' . strtolower($api_key) . '"; ';
 	$code .= 'appreplicasitename = "' . strtolower($site_name) . '"; ';
 	$code .= '</script> ';
-	$code .= '<script src="http://js.appreplica.com/1.3/arwp.js"></script> ';
+	$code .= '<script src="http://js.appreplica.com/1/arwp.js"></script> ';
 	
 	}
 	
