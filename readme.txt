@@ -13,8 +13,23 @@ Appreplica lets you add content from 3rd party websites such as YouTube, Faceboo
 
 Add full featured third party content from your favorite sites to your Wordpress powered websites. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, iTunes, Spotify, Deeer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, and SmugMug. A paid subscription on Appreplica also adds apps for Photo, Video and Music galleries. With a fully cloud based service and a lightweight Wordpress plugin, adding these apps to your Wordpress will not slow down your Wordpress websites as all the content is rendered in the cloud and remotely displayed in your Wordpress pages.
 
-For an example with examples of these apps, please visit [http://wordpress.appreplica.com](http://wordpress.appreplica.com)
+= Demos = 
 
+* [wordpress.appreplica.com](http://wordpress.appreplica.com) - Demo WordPress site with all the apps.
+* [YouTube](http://wordpress.appreplica.com/youtube) - YouTube Channel demo.
+* [iTunes](http://wordpress.appreplica.com/itunes) - iTunes demo.
+* [Spotify](http://wordpress.appreplica.com/spotify) - Spotify demo.
+* [Deezer](http://wordpress.appreplica.com/deezer) - Deezer demo.
+* [SoundCloud](http://wordpress.appreplica.com/soundcloud) - SoundCloud demo.
+* [Instagram](http://wordpress.appreplica.com/instagram) - Instagram demo.
+* [Facebook](http://wordpress.appreplica.com/facebook) - Facebook demo.
+* [Twitter](http://wordpress.appreplica.com/twitter) - Twitter demo.
+* [Tumblr](http://wordpress.appreplica.com/tumblr) - Tumblr demo.
+* [500px](http://wordpress.appreplica.com/500px) - 500px demo.
+* [Flickr](http://wordpress.appreplica.com/flickr) - Flickr demo.
+* [SmugMug](http://wordpress.appreplica.com/smugmug) - SmugMug demo.
+* [Photos](http://wordpress.appreplica.com/photos) - Photos demo.
+* [Videos](http://wordpress.appreplica.com/videos) - Videos demo.
 
 = How to use = 
 
