@@ -15,21 +15,21 @@ Add full featured third party content from your favorite sites to your Wordpress
 
 = Demos = 
 
-* [wordpress.appreplica.com](http://wordpress.appreplica.com) - Demo WordPress site with all the apps.
-* [YouTube](http://wordpress.appreplica.com/youtube) - YouTube Channel demo.
-* [iTunes](http://wordpress.appreplica.com/itunes) - iTunes demo.
-* [Spotify](http://wordpress.appreplica.com/spotify) - Spotify demo.
-* [Deezer](http://wordpress.appreplica.com/deezer) - Deezer demo.
-* [SoundCloud](http://wordpress.appreplica.com/soundcloud) - SoundCloud demo.
-* [Instagram](http://wordpress.appreplica.com/instagram) - Instagram demo.
-* [Facebook](http://wordpress.appreplica.com/facebook) - Facebook demo.
-* [Twitter](http://wordpress.appreplica.com/twitter) - Twitter demo.
-* [Tumblr](http://wordpress.appreplica.com/tumblr) - Tumblr demo.
-* [500px](http://wordpress.appreplica.com/500px) - 500px demo.
-* [Flickr](http://wordpress.appreplica.com/flickr) - Flickr demo.
-* [SmugMug](http://wordpress.appreplica.com/smugmug) - SmugMug demo.
-* [Photos](http://wordpress.appreplica.com/photos) - Photos demo.
-* [Videos](http://wordpress.appreplica.com/videos) - Videos demo.
+* [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
+* [YouTube](http://wordpress.appreplica.com/youtube)
+* [iTunes](http://wordpress.appreplica.com/itunes)
+* [Spotify](http://wordpress.appreplica.com/spotify)
+* [Deezer](http://wordpress.appreplica.com/deezer)
+* [SoundCloud](http://wordpress.appreplica.com/soundcloud)
+* [Instagram](http://wordpress.appreplica.com/instagram)
+* [Facebook](http://wordpress.appreplica.com/facebook)
+* [Twitter](http://wordpress.appreplica.com/twitter)
+* [Tumblr](http://wordpress.appreplica.com/tumblr)
+* [500px](http://wordpress.appreplica.com/500px)
+* [Flickr](http://wordpress.appreplica.com/flickr)
+* [SmugMug](http://wordpress.appreplica.com/smugmug)
+* [Photos](http://wordpress.appreplica.com/photos)
+* [Videos](http://wordpress.appreplica.com/videos)
 
 = How to use = 
 
