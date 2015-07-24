@@ -64,7 +64,7 @@ Please visit [http://appreplica.com](http://appreplica.com) for support and FAQ.
 
 == Changelog ==
 
-= 1.3 =
+= 1.4 =
 
 Added support for Vimeo.
 
