@@ -4,7 +4,7 @@ Plugin Name: Appreplica
 Plugin URI: http://appreplica.com
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
-Version: 1.3
+Version: 1.4
 Author URI: http://appreplica.com
 */
 
@@ -25,7 +25,7 @@ function embed_appreplica( $atts, $app = '' ) {
     # Read url from 'url' attribute if not empty, this corresponds to the App
     if ( !empty( $atts['url'] ) ) $app = $atts['url'];
 	
-	$app_array = array("youtube", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
+	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
 	
 	# return for valid apps only
 	if (in_array(strtolower($app), $app_array)) {
@@ -124,6 +124,8 @@ function appreplica_settings_page() {
 <ul>
 
 <li><p><img src="<?php echo plugins_url( 'icons/youtube.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>YouTube</b>&nbsp;&nbsp; <code>[appreplica]YouTube[/appreplica]</code></p></li>
+<li><p><img src="<?php echo plugins_url( 'icons/vimeo.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Vimeo</b>&nbsp;&nbsp; <code>[appreplica]Vimeo[/appreplica]</code></p></li>
+
 <li><p><img src="<?php echo plugins_url( 'icons/itunes.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>iTunes</b>&nbsp;&nbsp; <code>[appreplica]iTunes[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/spotify.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Spotify</b>&nbsp;&nbsp; <code>[appreplica]Spotify[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/deezer.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Deezer</b>&nbsp;&nbsp; <code>[appreplica]Deezer[/appreplica]</code></p></li>

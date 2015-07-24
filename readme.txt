@@ -2,7 +2,7 @@
 Contributors: appreplica
 Tags: Appreplica, YouTube, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -63,6 +63,10 @@ Please visit [http://appreplica.com](http://appreplica.com) for support and FAQ.
 
 
 == Changelog ==
+
+= 1.3 =
+
+Added support for Vimeo.
 
 = 1.3 =
 
