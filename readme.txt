@@ -1,6 +1,6 @@
 === Appreplica Page Embeds ===
 Contributors: appreplica
-Tags: Appreplica, YouTube, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
+Tags: Appreplica, YouTube, Vimeo, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
 Tested up to: 4.2.3
 Stable tag: trunk
@@ -17,6 +17,7 @@ Add full featured third party content from your favorite sites to your Wordpress
 
 * [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
 * [YouTube](http://wordpress.appreplica.com/youtube)
+* [Vimeo](http://wordpress.appreplica.com/vimeox)
 * [iTunes](http://wordpress.appreplica.com/itunes)
 * [Spotify](http://wordpress.appreplica.com/spotify)
 * [Deezer](http://wordpress.appreplica.com/deezer)
@@ -78,6 +79,6 @@ This is our initial release.
 
 == Upgrade Notice ==
 
-= 1.3 =
+= 1.4 =
 
-Upgrade the plugin to enable Flickr embeds.
+Upgrade the plugin to enable Vimeo embeds.

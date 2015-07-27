@@ -85,7 +85,7 @@ function appreplica_settings_page() {
 ?>
 
 </br>
-<h1>How to use Appreplica (version 1.3)</h1>
+<h1>How to use Appreplica (version 1.4)</h1>
 
 <p>Before you can use this plugin, you must first sign up for a free account on <a href="http://appreplica.com" target="_blank">Appreplica.com</a> and configure the Apps your wish to add to your WordPress pages.</p></br>
 
