@@ -1,4 +1,4 @@
-=== Appreplica Page Embeds ===
+=== Appreplica Social Embeds ===
 Contributors: appreplica
 Tags: Appreplica, YouTube, Vimeo, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
