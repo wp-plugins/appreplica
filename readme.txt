@@ -11,7 +11,9 @@ Appreplica lets you add content from 3rd party websites such as YouTube, Faceboo
 
 == Description ==
 
-Add full featured third party content from your favorite sites to your Wordpress powered websites. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, iTunes, Spotify, Deeer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, and SmugMug. A paid subscription on Appreplica also adds apps for Photo, Video and Music galleries. With a fully cloud based service and a lightweight Wordpress plugin, adding these apps to your Wordpress will not slow down your Wordpress websites as all the content is rendered in the cloud and remotely displayed in your Wordpress pages.
+Add full featured third party content from your favorite sites to your WordPress powered websites with one plugin. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, Vimeo, iTunes, Spotify, Deeer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, and SmugMug. A paid subscription on Appreplica also adds additional apps for Photos, Videos and Music galleries.
+
+With a fully cloud based service and a lightweight WordPress plugin, adding these apps to your WordPress will not slow down your WordPress websites as all the content is rendered in the cloud and remotely displayed in your WordPress pages.
 
 = Demos = 
 
@@ -34,7 +36,7 @@ Add full featured third party content from your favorite sites to your Wordpress
 
 = How to use = 
 
-Sign up for a free account on Appreplica.com to setup and configure the apps you wish to add to your Wordpress powered websites. Then install our free plugin, provide it your API key (available from your account on Appreplica.com), and add the desired apps to the your Wordpress pages by adding the corresponding shortcodes to one or more of your defined Pages.
+Sign up for a free account on Appreplica.com to setup and configure the apps you wish to add to your WordPress powered websites. Then install our free plugin, provide it your API key (available from your account on Appreplica.com), and add the desired apps to the your WordPress pages by adding the corresponding shortcodes to one or more of your defined Pages.
 
 
 == Installation ==
