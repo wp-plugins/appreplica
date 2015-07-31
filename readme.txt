@@ -17,7 +17,7 @@ With a fully cloud based service and a lightweight WordPress plugin, adding thes
 
 = Demos = 
 
-* [www.appreplica.com](http://www.appreplica.com) - Main website with where to sign up.
+* [www.appreplica.com](http://www.appreplica.com) - Main website and where to sign up.
 * [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
 * [YouTube](http://wordpress.appreplica.com/youtube)
 * [Vimeo](http://wordpress.appreplica.com/vimeox)
