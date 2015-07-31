@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Appreplica lets you add content from 3rd party websites such as YouTube, Facebook, Instagram, Twitter, Tumblr, iTunes, Flickr, etc. to your WordPress websites.
+Appreplica lets you add content from 3rd party websites such as YouTube, Facebook, Instagram, Twitter, Tumblr, iTunes, Spotify, Flickr, etc. to your WordPress websites.
 
 == Description ==
 
@@ -17,7 +17,6 @@ With a fully cloud based service and a lightweight WordPress plugin, adding thes
 
 = Demos = 
 
-* [www.appreplica.com](http://www.appreplica.com) - Main website and where to sign up.
 * [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
 * [YouTube](http://wordpress.appreplica.com/youtube)
 * [Vimeo](http://wordpress.appreplica.com/vimeox)
@@ -37,14 +36,14 @@ With a fully cloud based service and a lightweight WordPress plugin, adding thes
 
 = How to use = 
 
-Sign up for a free account on Appreplica.com to setup and configure the apps you wish to add to your WordPress powered websites. Then install our free plugin, provide it your API key (available from your account on Appreplica.com), and add the desired apps to the your WordPress pages by adding the corresponding shortcodes to one or more of your defined Pages.
+Sign up for a free account on [http://appreplica.com](http://appreplica.com) to setup and configure the apps you wish to add to your WordPress powered websites. Then install our free plugin, provide it your API key (available from your account on Appreplica.com), and add the desired apps to the your WordPress pages by adding the corresponding shortcodes to one or more of your defined Pages.
 
 
 == Installation ==
 
 The installation is pretty standard:
 
-1. Go to (http://appreplica.com) to sign up a free account.
+1. Go to [http://appreplica.com](http://appreplica.com) to sign up a free account.
 2. Upload the package contents to to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Go to the plugin settings to configure it.
