@@ -17,25 +17,7 @@ With a fully cloud based service and a lightweight WordPress plugin, adding thes
 
 = Demos = 
 
-* [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
-
-* [YouTube](http://wordpress.appreplica.com/youtube)
-* [Vimeo](http://wordpress.appreplica.com/vimeox)
-* [iTunes](http://wordpress.appreplica.com/itunes)
-* [Spotify](http://wordpress.appreplica.com/spotify)
-* [Deezer](http://wordpress.appreplica.com/deezer)
-* [SoundCloud](http://wordpress.appreplica.com/soundcloud)
-
-* [Instagram](http://wordpress.appreplica.com/instagram)
-* [Facebook](http://wordpress.appreplica.com/facebook)
-* [Twitter](http://wordpress.appreplica.com/twitter)
-* [Tumblr](http://wordpress.appreplica.com/tumblr)
-* [500px](http://wordpress.appreplica.com/500px)
-
-* [Flickr](http://wordpress.appreplica.com/flickr)
-* [SmugMug](http://wordpress.appreplica.com/smugmug)
-* [Photos](http://wordpress.appreplica.com/photos)
-* [Videos](http://wordpress.appreplica.com/videos)
+* [wordpress.appreplica.com](http://wordpress.appreplica.com) - Demo WordPress site with all the apps.
 
 = How to use = 
 
