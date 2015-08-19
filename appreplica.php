@@ -4,7 +4,7 @@ Plugin Name: Appreplica
 Plugin URI: http://appreplica.com
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
-Version: 1.4
+Version: 1.5
 Author URI: http://appreplica.com
 */
 
@@ -25,7 +25,7 @@ function embed_appreplica( $atts, $app = '' ) {
     # Read url from 'url' attribute if not empty, this corresponds to the App
     if ( !empty( $atts['url'] ) ) $app = $atts['url'];
 	
-	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
+	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "socialfeed", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
 	
 	# return for valid apps only
 	if (in_array(strtolower($app), $app_array)) {
@@ -85,7 +85,7 @@ function appreplica_settings_page() {
 ?>
 
 </br>
-<h1>How to use Appreplica (version 1.4)</h1>
+<h1>How to use Appreplica (version 1.5)</h1>
 
 <p>Before you can use this plugin, you must first sign up for a free account on <a href="http://appreplica.com" target="_blank">Appreplica.com</a> and configure the Apps your wish to add to your WordPress pages.</p></br>
 
@@ -131,6 +131,7 @@ function appreplica_settings_page() {
 <li><p><img src="<?php echo plugins_url( 'icons/deezer.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Deezer</b>&nbsp;&nbsp; <code>[appreplica]Deezer[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/soundcloud.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>SoundCloud</b>&nbsp;&nbsp; <code>[appreplica]SoundCloud[/appreplica]</code></p></li>
 
+<li><p><img src="<?php echo plugins_url( 'icons/socialfeed.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>SocialFeed</b>&nbsp;&nbsp; <code>[appreplica]SocialFeed[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/instagram.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Intagram</b>&nbsp;&nbsp; <code>[appreplica]Instagram[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/twitter.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Twitter</b>&nbsp;&nbsp; <code>[appreplica]Twitter[/appreplica]</code></p></li>
 <li><p><img src="<?php echo plugins_url( 'icons/facebook.png', __FILE__ ); ?>" width="20" height="20" align="absmiddle" alt=""/>&nbsp; <b>Facebook</b>&nbsp;&nbsp; <code>[appreplica]Facebook[/appreplica]</code></p></li>

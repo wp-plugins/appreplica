@@ -2,7 +2,7 @@
 Contributors: appreplica
 Tags: Appreplica, YouTube, Vimeo, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
-Tested up to: 4.2.3
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,17 +18,20 @@ With a fully cloud based service and a lightweight WordPress plugin, adding thes
 = Demos = 
 
 * [wordpress.appreplica.com](http://wordpress.appreplica.com) - WordPress site with all the apps.
+
 * [YouTube](http://wordpress.appreplica.com/youtube)
 * [Vimeo](http://wordpress.appreplica.com/vimeox)
 * [iTunes](http://wordpress.appreplica.com/itunes)
 * [Spotify](http://wordpress.appreplica.com/spotify)
 * [Deezer](http://wordpress.appreplica.com/deezer)
 * [SoundCloud](http://wordpress.appreplica.com/soundcloud)
+
 * [Instagram](http://wordpress.appreplica.com/instagram)
 * [Facebook](http://wordpress.appreplica.com/facebook)
 * [Twitter](http://wordpress.appreplica.com/twitter)
 * [Tumblr](http://wordpress.appreplica.com/tumblr)
 * [500px](http://wordpress.appreplica.com/500px)
+
 * [Flickr](http://wordpress.appreplica.com/flickr)
 * [SmugMug](http://wordpress.appreplica.com/smugmug)
 * [Photos](http://wordpress.appreplica.com/photos)
@@ -67,6 +70,10 @@ Please visit [http://appreplica.com](http://appreplica.com) for support and FAQ.
 
 == Changelog ==
 
+= 1.5 =
+
+Added new SocialFeed app and updated for WordPress 4.3.
+
 = 1.4 =
 
 Added support for Vimeo.
@@ -81,6 +88,6 @@ This is our initial release.
 
 == Upgrade Notice ==
 
-= 1.4 =
+= 1.5 =
 
-Upgrade the plugin to enable Vimeo embeds.
+Upgrade the plugin to enable SocialFeed embeds.
