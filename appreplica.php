@@ -394,7 +394,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
 
 <h3>How do I get started?</h3>
 
-First sign up for a free account one <a target="_blank" href="http://www.appreplica.com"><b>www.appreplica.com</b></a>. It will take just a few minutes to configure the apps on our sites. Then return here and enter your Appreplica&nbsp;API&nbsp;Key under the <b>Configure</b> tab of this plugin. Then add the corresponding shortcodes as shown under the <b>Add to Pages</b> tab of this plugin to the pages on which would like display your content.<br /><br />
+First sign up for a free account one <a target="_blank" href="http://www.appreplica.com"><b>www.appreplica.com</b></a>. It will take just a few minutes to configure the apps on Appreplica. Then return here and enter your Appreplica&nbsp;API&nbsp;Key under the <b>Configure</b> tab of this plugin. Then add the corresponding shortcodes as shown under the <b>Add to Pages</b> tab of this plugin to the pages on which would like display your content.<br /><br />
 
 <h3>What makes Appreplica different than other plugins?</h3>
 
