@@ -52,6 +52,10 @@ Please visit [http://appreplica.com](http://appreplica.com) for support and FAQ.
 
 == Changelog ==
 
+= 1.6 =
+
+Added a new modern WordPress Admin interface.
+
 = 1.5 =
 
 Added new SocialFeed app and updated for WordPress 4.3.
@@ -70,6 +74,6 @@ This is our initial release.
 
 == Upgrade Notice ==
 
-= 1.5 =
+= 1.6 =
 
-Upgrade the plugin to enable SocialFeed embeds.
+Upgrade the plugin to take advantage of the new Admin interface.
