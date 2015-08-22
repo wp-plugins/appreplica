@@ -4,7 +4,7 @@ Plugin Name: Appreplica
 Plugin URI: http://appreplica.com
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
-Version: 1.6
+Version: 1.7
 Author URI: http://appreplica.com
 */
 
@@ -25,7 +25,7 @@ function embed_appreplica( $atts, $app = '' ) {
     # Read url from 'url' attribute if not empty, this corresponds to the App
     if ( !empty( $atts['url'] ) ) $app = $atts['url'];
 	
-	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "socialfeed", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug", "photos", "videos", "music");
+	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "socialfeed", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px", "flickr", "smugmug", "photos", "videos", "music");
 	
 	# return for valid apps only
 	if (in_array(strtolower($app), $app_array)) {
@@ -87,7 +87,7 @@ function appreplica_settings_page() {
 <div id="appreplica_admin" class="wrap">
 
 <div style="padding-bottom: 10px;">
-<h1>Appreplica (v.1.6)</h1>
+<h1>Appreplica (v.1.7)</h1>
 </div>
 
 <?php $appreplica_active_tab = isset( $_GET[ 'tab' ] ) ? $_GET[ 'tab' ] : 'configure'; ?>
@@ -217,7 +217,7 @@ font-size: 12px;
 
 <div style="max-width: 1100px;">
 <?php 
-$apps = array("socialfeed", "youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "500px", "flickr", "smugmug");
+$apps = array("socialfeed", "youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px", "flickr", "smugmug");
 foreach ($apps as &$value) {
 ?>
 <div class="appreplica-app-box">
@@ -341,7 +341,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
   
   <tr class="appreplica_table_header"><td colspan=3>SOCIAL APPS</td></tr>
   <?php 
-  $apps = array("socialfeed", "instagram", "twitter", "facebook", "tumblr", "500px");
+  $apps = array("socialfeed", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px");
   foreach ($apps as &$value) {
   ?>
   <tr class="appreplica_pro">
@@ -394,7 +394,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
 
 <h3>How do I get started?</h3>
 
-First sign up for a free account one <a target="_blank" href="http://www.appreplica.com"><b>www.appreplica.com</b></a>. It will take just a few minutes to configure the apps on Appreplica. Then return here and enter your Appreplica&nbsp;API&nbsp;Key under the <b>Configure</b> tab of this plugin. Then add the corresponding shortcodes as shown under the <b>Add to Pages</b> tab of this plugin to the pages on which would like display your content.<br /><br />
+First sign up for a free account on <a target="_blank" href="http://www.appreplica.com"><b>www.appreplica.com</b></a>. It will take just a few minutes to configure the apps on Appreplica. Then return here and enter your Appreplica&nbsp;API&nbsp;Key under the <b>Configure</b> tab of this plugin. Then add the corresponding shortcodes as shown under the <b>Add to Pages</b> tab of this plugin to the pages on which would like display your content.<br /><br />
 
 <h3>What makes Appreplica different than other plugins?</h3>
 
@@ -402,31 +402,31 @@ Appreplica is different than almost all other WordPress plugins in that it's a c
        
 <h3>Will it work with all themes?</h3>
 
-Our plugin should work with virtually all WordPress themes. Our plugin is very &quot;lightweight&quot; and should not conflict with any other plugins or impact the performance of your overall website. With one plugin, you can add one or all of our 20 apps. There is no need to install a separate plugin for each app, our unique plugin handles all the apps with just one plugin.<br /><br />
+Our plugin should work with virtually all WordPress themes. Our plugin is very &quot;lightweight&quot; and should not conflict with any other plugins or impact the performance of your overall website. With one plugin, you can add one or all of our apps. There is no need to install a separate plugin for each app, our unique plugin handles all the apps with just one plugin.<br /><br />
 
 <h3>Is this service really free?</h3>
 
-Absolutely! We offer a 100% free basic plan without all the limitations imposed by the many other providers. An affordable subscription plan starting at just $49 per year is also available for users who would like customize their plugins with custom colors and select from different design choices. Please review our <a target="_blank" href="http://www.appreplica.com/pricing.php"><b>pricing</b></a> for details.<br /><br />
+Absolutely! We offer a 100% free basic plan without all the limitations imposed by the many other providers. Affordable subscription plans are also available for users who would like customize their plugins with custom colors and select from different design choices. Please review our <a target="_blank" href="http://www.appreplica.com/pricing.php"><b>pricing</b></a> for details.<br /><br />
 
 <h3>How often is the content updated?</h3>
 
 All apps are updated in realtime. You never have to manually sync or do anything special for your latest social media postings and updates to be reflected in your pages. Just add content to your social media sites and magically see the changes reflected on your pages.<br /><br />
  
-<h3>Are the limits on visitors, bandwidth, etc.?</h3>
+<h3>Are there limits on visitors, bandwidth, etc.?</h3>
 
 Nope! We offer truly unlimited usage! Whether you get one visitor or millions of visitors, our service will display your content from our worldwide network of servers powered by Amazon Web Services with virtually no performance impact on your own hosting service.<br /><br />
 
 <h3>How do you make money?</h3>
 
-Some of our users upgrade to take advantage of the more advanced customization options and that's plenty for us to support and maintain this service :)<br /><br />
+Some of our users upgrade to take advantage of the more advanced customization options and that's plenty for us to support and maintain this service.<br /><br />
 
 <h3>Why aren't there free versions of your Photo and Videos apps?</h3>
 
-These two apps are very special in that they provide a powerful photo and video gallery system with unlimited storage and bandwidth powered by Amazon's worldwide CloudFront content delivery network. Since the storage and bandwidth costs are quite costly, these two apps are limited to subscribing members only.<br /><br />
+These two apps are very special in that they provide a powerful photo and video gallery content management system with unlimited storage and bandwidth powered by Amazon's worldwide CloudFront content delivery network. Since the storage and bandwidth costs are quite costly, these two apps are limited to subscribing members only.<br /><br />
 
 <h3>How can I get support?</h3>
 
-This service is so easy to use that we're confident 99% of you won't need any extra help, but feel free to email us at <b>support@appreplica.com</b> if you have any questions about this service. Unlike most other plugins, free unlimited support is available to all our valued members including the free members.<br /><br />
+This service is so easy to use that we're confident 99% of you won't need any extra help, but feel free to email us at <b>support@appreplica.com</b> if you have any questions about this service. Free unlimited support is available to all our valued users.<br /><br />
 
 <h3>Like our service?</h3>
 
