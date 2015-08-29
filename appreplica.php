@@ -404,7 +404,7 @@ Our plugin should work with virtually all WordPress themes. Our plugin is very &
 
 <h3>Can I add these apps using icons instead of menu entries?</h3>
 
-Absolutely! Create a page as usual but do not include it as a menu option. The page will not appear as a menu option but will be available when linked to directly. Then use our a free <a target="_blank" href="https://wordpress.org/plugins/appreplica-social-icons/"><b>Appreplica Social Icons</b></a> plugin to add social media icons to your widget areas.<br /><br />
+Absolutely! Create a page as usual but do not add it as a menu option. The page will not appear as a menu option but will be available when linked to directly. Then use our a free <a target="_blank" href="https://wordpress.org/plugins/appreplica-social-icons/"><b>Appreplica Social Icons</b></a> plugin to add social media icons to your widget areas.<br /><br />
 
 <h3>Is this service really free?</h3>
 
