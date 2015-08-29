@@ -8,16 +8,14 @@ Version: 1.7
 Author URI: http://appreplica.com
 */
 
-# Define appreplica plugin path
-if ( !defined( 'APPREPLICA_URL' ) ) {
-  define( 'APPREPLICA_URL', WP_PLUGIN_URL.'/appreplica' );
-}
-
-# Register [appreplica] shortcode
-add_shortcode( 'appreplica', 'embed_appreplica' );
+# Prevent direct access
+if (!defined('ABSPATH')) die('Error!');
 
 # Add jquery
 wp_enqueue_script('jquery');
+
+# Register [appreplica] shortcode
+add_shortcode( 'appreplica', 'embed_appreplica' );
 
 # Function to process content in appreplica shortcode, ex: [appreplica]YouTube[/appreplica]
 function embed_appreplica( $atts, $app = '' ) {
@@ -134,7 +132,7 @@ This is a unique API key that links your account on Appreplica to the plugin her
 <div style="padding: 10px; max-width: 485px; font-size: 13px; background-color: #ffffcc; border-radius: 3px;">
 To preview our apps with sample data on your own pages before signing up for Appreplica please enter &nbsp; <span style="color: #000000; font-size: 20px;"><b>demo</b></span> &nbsp; as the API key.</div>
 
-<?php if ($confirmSave) { echo '<br /><div style="padding: 10px; font-size: 16px; color: #ff0000;">Your API Key has been saved</span>'; } ?>
+<?php if ($confirmSave) { echo '<br /><div style="padding: 10px; font-size: 16px; color: #ff0000;">Your API Key has been saved</div>'; } ?>
 
 <br /><br />
 
@@ -218,7 +216,7 @@ font-size: 12px;
 <div style="max-width: 1100px;">
 <?php 
 $apps = array("socialfeed", "youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px", "flickr", "smugmug");
-foreach ($apps as &$value) {
+foreach ($apps as $value) {
 ?>
 <div class="appreplica-app-box">
 <table>
@@ -245,7 +243,7 @@ foreach ($apps as &$value) {
 <div style="max-width: 1100px;">
 <?php 
 $apps = array("photos", "videos");
-foreach ($apps as &$value) {
+foreach ($apps as $value) {
 ?>
 <div class="appreplica-app-box">
 <table>
@@ -329,7 +327,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
   <tr class="appreplica_table_header"><td colspan=3>MEDIA APPS</td></tr>
   <?php 
   $apps = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud");
-  foreach ($apps as &$value) {
+  foreach ($apps as $value) {
   ?>
   <tr class="appreplica_pro">
   <td nowrap><img src="<?php echo plugins_url( 'icons/' . $value . '.png', __FILE__ ); ?>" width="18" height="18" align="absmiddle" alt=""/>&nbsp;&nbsp;<b><?php echo strtoupper($value); ?></b></td>
@@ -342,7 +340,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
   <tr class="appreplica_table_header"><td colspan=3>SOCIAL APPS</td></tr>
   <?php 
   $apps = array("socialfeed", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px");
-  foreach ($apps as &$value) {
+  foreach ($apps as $value) {
   ?>
   <tr class="appreplica_pro">
   <td nowrap><img src="<?php echo plugins_url( 'icons/' . $value . '.png', __FILE__ ); ?>" width="18" height="18" align="absmiddle" alt=""/>&nbsp;&nbsp;<b><?php echo strtoupper($value); ?></b></td>
@@ -355,7 +353,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
   <tr class="appreplica_table_header"><td colspan=3>PORTFOLIO APPS</td></tr>
   <?php 
   $apps = array("flickr", "smugmug", "photos", "videos");
-  foreach ($apps as &$value) {
+  foreach ($apps as $value) {
   ?>
   <tr class="appreplica_pro">
   <td nowrap><img src="<?php echo plugins_url( 'icons/' . $value . '.png', __FILE__ ); ?>" width="18" height="18" align="absmiddle" alt=""/>&nbsp;&nbsp;<b><?php echo strtoupper($value); ?></b></td>
