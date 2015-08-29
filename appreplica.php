@@ -402,6 +402,10 @@ Appreplica is different than almost all other WordPress plugins in that it's a c
 
 Our plugin should work with virtually all WordPress themes. Our plugin is very &quot;lightweight&quot; and should not conflict with any other plugins or impact the performance of your overall website. With one plugin, you can add one or all of our apps. There is no need to install a separate plugin for each app, our unique plugin handles all the apps with just one plugin.<br /><br />
 
+<h3>Can I add these apps using icons instead of menu entries?</h3>
+
+Absolutely! Create a page as usual but do not include it as a menu option. The page will not appear as a menu option but will be available when linked to directly. Then use our a free <a target="_blank" href="https://wordpress.org/plugins/appreplica-social-icons/"><b>Appreplica Social Icons</b></a> plugin to add social media icons to your widget areas.<br /><br />
+
 <h3>Is this service really free?</h3>
 
 Absolutely! We offer a 100% free basic plan without all the limitations imposed by the many other providers. Affordable subscription plans are also available for users who would like customize their plugins with custom colors and select from different design choices. Please review our <a target="_blank" href="http://www.appreplica.com/pricing.php"><b>pricing</b></a> for details.<br /><br />
