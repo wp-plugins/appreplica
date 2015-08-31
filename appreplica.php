@@ -148,35 +148,6 @@ To preview our apps with sample data on your own pages before signing up for App
 <br /><br /><br />
 <hr style="border: none; border-bottom: 1px solid #ccc;" />
 
-<h3>Like Appreplica? Please help spread the word!</h3>
-
-<!-- TWITTER -->
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://wordpress.org/plugins/appreplica/" data-text="Display your social media content on your site using Appreplica WordPress plugin!" data-via="appreplica" data-dnt="true">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<style type="text/css">
-#twitter-widget-0{ float: left; width: 100px !important; }
-.IN-widget{ margin-right: 20px; }
-</style>
-
-&nbsp;&nbsp;
-
-<!-- FACEBOOK -->
-<div id="fb-root" style="display: none;"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://wordpress.org/plugins/appreplica/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="display: block; float: left; margin-right: 20px;"></div>
-
-&nbsp;&nbsp;
-
-<!-- GOOGLE + -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<div class="g-plusone" data-size="medium" data-href="https://wordpress.org/plugins/appreplica/"></div>
-
 <?php } // End Configure Tab ?>
 
 
@@ -397,14 +368,14 @@ First sign up for a free account on <a target="_blank" href="http://www.apprepli
 <h3>What makes Appreplica different than other plugins?</h3>
 
 Appreplica is different than almost all other WordPress plugins in that it's a cloud based solution. This means rather than the complex code running on your own server where it can slow down your own server or possibly cause conflict with other plugins and themes, it instead runs on Appreplica's distributed cloud based servers and the content is remotely displayed in your website using a combination of AJAX and iFrames.<br /><br />It's very similar for example to an embedded YouTube video. YouTube's servers handle the complex tasks of rendering the video, paying for the bandwidth, etc. and your browser simply displays the video with virtually no impact on your own server's performance.<br /><br />
-       
-<h3>Will it work with all themes?</h3>
-
-Our plugin should work with virtually all WordPress themes. Our plugin is very &quot;lightweight&quot; and should not conflict with any other plugins or impact the performance of your overall website. With one plugin, you can add one or all of our apps. There is no need to install a separate plugin for each app, our unique plugin handles all the apps with just one plugin.<br /><br />
 
 <h3>Can I add these apps using icons instead of menu entries?</h3>
 
 Absolutely! Create a page as usual but do not add it as a menu option. The page will not appear as a menu option but will be available when linked to directly. Then use our a free <a target="_blank" href="https://wordpress.org/plugins/appreplica-social-icons/"><b>Appreplica Social Icons</b></a> plugin to add social media icons to your widget areas.<br /><br />
+
+<h3>Will it work with all themes?</h3>
+
+Our plugin should work with virtually all WordPress themes. Our plugin is very &quot;lightweight&quot; and should not conflict with any other plugins or impact the performance of your overall website. With one plugin, you can add one or all of our apps. There is no need to install a separate plugin for each app, our unique plugin handles all the apps with just one plugin.<br /><br />
 
 <h3>Is this service really free?</h3>
 
@@ -432,34 +403,7 @@ This service is so easy to use that we're confident 99% of you won't need any ex
 
 <h3>Like our service?</h3>
 
-Please consider <a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/appreplica"><b>leaving us a review</b></a> or sharing this plugin with your colleagues.<br /><br /><br />
-
-<!-- TWITTER -->
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://wordpress.org/plugins/appreplica/" data-text="Display your social media content on your site using Appreplica WordPress plugin!" data-via="appreplica" data-dnt="true">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<style type="text/css">
-#twitter-widget-0{ float: left; width: 100px !important; }
-.IN-widget{ margin-right: 20px; }
-</style>
-
-&nbsp;&nbsp;
-
-<!-- FACEBOOK -->
-<div id="fb-root" style="display: none;"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://wordpress.org/plugins/appreplica/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="display: block; float: left; margin-right: 20px;"></div>
-
-&nbsp;&nbsp;
-
-<!-- GOOGLE + -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<div class="g-plusone" data-size="medium" data-href="https://wordpress.org/plugins/appreplica/"></div>
+Please consider <a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/appreplica"><b>leaving us a review</b></a>.<br /><br /><br />
 
 </div>
 </td>
