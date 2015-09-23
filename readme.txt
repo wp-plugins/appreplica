@@ -29,7 +29,7 @@ Sign up for a free account on [http://appreplica.com](http://appreplica.com) to 
 The installation follows standard WordPress plugin installations:
 
 1. Go to [http://appreplica.com](http://appreplica.com) to sign up a free account.
-2. Go to your admin area and select Plugins -> Add new from the menu.
+2. Go to your admin area and select Plugins > Add new from the menu.
 3. Search for "Appreplica".
 4. Click install.
 5. Click activate.

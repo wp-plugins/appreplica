@@ -94,10 +94,8 @@ function appreplica_settings_page() {
 <a href="?page=appreplica_settings_page&amp;tab=apps" class="nav-tab <?php echo $appreplica_active_tab == 'apps' ? 'nav-tab-active' : ''; ?>">Apps</a>
 <a href="?page=appreplica_settings_page&amp;tab=addtopages" class="nav-tab <?php echo $appreplica_active_tab == 'addtopages' ? 'nav-tab-active' : ''; ?>">Add to Pages</a>
 <a href="?page=appreplica_settings_page&amp;tab=support" class="nav-tab <?php echo $appreplica_active_tab == 'support' ? 'nav-tab-active' : ''; ?>">Support / FAQ</a>
+
 </h2>
-
-
-
 
 <?php if( $appreplica_active_tab == 'configure' ) { // Configure Tab ?>
 
@@ -120,19 +118,27 @@ wp_nonce_field('form-settings');
 <th scope="row"><label>Appreplica API Key</label></th>
 <td>
 
-<input type="text" style="width: 505px; font-size: 18px;" name="appreplica_api_key" value="<?php echo get_site_option('appreplica_api_key'); ?>"  placeholder="Enter your Appreplica API Key" />
+<input type="text" style="width: 545px; font-size: 18px;" name="appreplica_api_key" value="<?php echo get_site_option('appreplica_api_key'); ?>"  placeholder="Enter your Appreplica API Key" />
 
 <br /><br />
 
-<div style="padding: 10px; max-width: 485px; font-size: 13px; background-color: #ffffff; border-radius: 3px;">
+<div style="padding: 10px; max-width: 525px; font-size: 14px; background-color: #ffffff; border-radius: 3px; line-height: 22px;">
 This is a unique API key that links your account on Appreplica to the plugin here. The API key can be found on your Dasboard page on <a target="_blank" href="http://www.appreplica.com">Appreplica.com</a></div>
 
 <br />
 
-<div style="padding: 10px; max-width: 485px; font-size: 13px; background-color: #ffffcc; border-radius: 3px;">
+<div style="padding: 10px; max-width: 525px; font-size: 14px; background-color: #fdfde0; border-radius: 3px; line-height: 22px;">
 To preview our apps with sample data on your own pages before signing up for Appreplica please enter &nbsp; <span style="color: #000000; font-size: 20px;"><b>demo</b></span> &nbsp; as the API key.</div>
 
-<?php if ($confirmSave) { echo '<br /><div style="padding: 10px; font-size: 16px; color: #ff0000;">Your API Key has been saved</div>'; } ?>
+<?php if ( !is_plugin_active( 'appreplica-social-icons/appreplica-social-icons.php' ) ) { ?>
+
+<br />
+<div style="padding: 10px; max-width: 525px; font-size: 14px; background-color: #fefec3; border-radius: 3px; line-height: 22px;">
+Need a social icons plugin to use with this plugin? We also offer a free <a target="_blank" href="https://wordpress.org/plugins/appreplica-social-icons/">Appreplica&nbsp;Social&nbsp;Icons</a> plugin you can use.</div>
+
+<?php } ?>
+
+<?php if ($confirmSave) { echo '<br /><div style="padding: 10px; font-size: 18px; color: #ff0000;"><b>Your API Key has been saved</b></div>'; } ?>
 
 <br /><br />
 
