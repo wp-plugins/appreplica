@@ -11,7 +11,7 @@ Appreplica lets you add content from 3rd party websites such as YouTube, Faceboo
 
 == Description ==
 
-Add full featured third party content from your favorite sites to your WordPress powered websites with one plugin. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, Vimeo, iTunes, Spotify, Deezer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, Pinterest, 500px, Flickr, and SmugMug. A paid subscription on Appreplica also adds additional apps for Photos, Videos and Music galleries.
+Add full featured third party content from your favorite sites to your WordPress powered websites with one plugin. For example, our YouTube App embeds your entire YouTube channel, almost as though viewers were looking at your channel on YouTube itself. We currently have free apps for YouTube, Vimeo, iTunes, Spotify, Deezer, SoundCloud, Facebook, Instagram, Twitter, Tumblr, Pinterest, 500px, Behance, Flickr, and SmugMug. A paid subscription on Appreplica also adds additional apps for Photos, Videos and Music galleries.
 
 With a fully cloud based service and a lightweight WordPress plugin, adding these apps to your WordPress will not slow down your WordPress websites as all the content is rendered in the cloud and remotely displayed in your WordPress pages.
 
