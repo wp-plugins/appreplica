@@ -4,7 +4,7 @@ Plugin Name: Appreplica
 Plugin URI: http://appreplica.com
 Description: Appreplica for WordPress, embed your favorite websites.
 Author: Appreplica
-Version: 1.7
+Version: 1.8
 Author URI: http://appreplica.com
 */
 
@@ -23,7 +23,7 @@ function embed_appreplica( $atts, $app = '' ) {
     # Read url from 'url' attribute if not empty, this corresponds to the App
     if ( !empty( $atts['url'] ) ) $app = $atts['url'];
 	
-	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "socialfeed", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px", "flickr", "smugmug", "photos", "videos", "music");
+	$app_array = array("youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "socialfeed", "instagram", "twitter", "facebook", "tumblr", "pinterest", "behance", "500px", "flickr", "smugmug", "photos", "videos", "music");
 	
 	# return for valid apps only
 	if (in_array(strtolower($app), $app_array)) {
@@ -85,7 +85,7 @@ function appreplica_settings_page() {
 <div id="appreplica_admin" class="wrap">
 
 <div style="padding-bottom: 10px;">
-<h1>Appreplica (v.1.7)</h1>
+<h1>Appreplica (v.1.8)</h1>
 </div>
 
 <?php $appreplica_active_tab = isset( $_GET[ 'tab' ] ) ? $_GET[ 'tab' ] : 'configure'; ?>
@@ -192,7 +192,7 @@ font-size: 12px;
 
 <div style="max-width: 1100px;">
 <?php 
-$apps = array("socialfeed", "youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "pinterest", "500px", "flickr", "smugmug");
+$apps = array("socialfeed", "youtube", "vimeo", "itunes", "spotify", "deezer", "soundcloud", "instagram", "twitter", "facebook", "tumblr", "pinterest", "behance", "500px", "flickr", "smugmug");
 foreach ($apps as $value) {
 ?>
 <div class="appreplica-app-box">
@@ -329,7 +329,7 @@ Copy and paste the following shortcodes directly into the page, post or widget w
 
   <tr class="appreplica_table_header"><td colspan=3>PORTFOLIO APPS</td></tr>
   <?php 
-  $apps = array("flickr", "smugmug", "photos", "videos");
+  $apps = array("flickr", "smugmug", "behance", "photos", "videos");
   foreach ($apps as $value) {
   ?>
   <tr class="appreplica_pro">

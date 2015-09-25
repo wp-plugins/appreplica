@@ -1,6 +1,6 @@
 === Appreplica Social Embeds ===
 Contributors: appreplica
-Tags: Appreplica, YouTube, Vimeo, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, Pinterest, 500px, Flickr, SmugMug, Galleries, Photos, Videos, Music
+Tags: Appreplica, YouTube, Vimeo, iTunes, Spotify, Deezer, Soundcloud, Facebook, Instagram, Twitter, Tumblr, Pinterest, 500px, Behance, Flickr, SmugMug, Galleries, Photos, Videos, Music
 Requires at least: 3.5.1
 Tested up to: 4.3
 Stable tag: trunk
@@ -89,6 +89,10 @@ This service is so easy to use that we're confident 99% of you won't need any ex
 
 == Changelog ==
 
+= 1.8 =
+
+Added support for Behance.
+
 = 1.7 =
 
 Added support for Pinterest.
@@ -115,6 +119,6 @@ This is our initial release.
 
 == Upgrade Notice ==
 
-= 1.7 =
+= 1.8 =
 
-Upgrade to add Pinterest.
+Upgrade to add Behance.
