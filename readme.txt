@@ -37,13 +37,17 @@ The installation follows standard WordPress plugin installations:
 
 == Screenshots ==
 
-1. YouTube Channel Videos Example
-2. YouTube Video Playback Example
-3. iTunes Music Example
-4. Instagram Example
-5. Twitter Example
-6. Photo Galleries Example
-7. Photo Lightbox View Example
+1. Social Feeds Example
+2. YouTube Channel Videos Example
+3. YouTube Video Playback Example
+4. iTunes Music Example
+5. Instagram Example
+6. Twitter Example
+7. Pinterest Example
+8. Behance Example
+9. Photo Collections Example
+10. Photo Galleries View Example
+11. Photo Lightbox View Example
 
 
 == Frequently Asked Questions ==
